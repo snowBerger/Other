@@ -1,0 +1,20 @@
+/* play.wxss */
+
+.input-view {
+    width: 80%;
+    font-size: 30rpx;
+}
+
+.play-input {
+    border-bottom: 1px solid #ccc;
+}
+
+.play-scroll-view {
+    width: 80%; 
+    height: 200px;
+    border: 1px solid #ccc;
+    margin:20px 0;
+    font-size: 36rpx;
+    color: #f00;
+    background-color: #eee;
+}

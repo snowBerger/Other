@@ -1,0 +1,12 @@
+<!--play.wxml-->
+<view class="container">
+    <view class="input-view">
+        <input class="play-input" value="{{content}}" bindinput="bindInput" placeholder="随意输入" auto-focus />
+    </view>
+    <scroll-view class="play-scroll-view">
+        {{content}}
+    </scroll-view>
+    <view class="button-view">
+        <button class="play-button" bindtap="clearPlayInfo">清空</button>
+    </view>
+</view>

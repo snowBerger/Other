@@ -1,0 +1,14 @@
+<!--logs.wxml-->
+<!--<view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <scroll-view wx:if="{{j <= i}}">
+      {{j}} * {{i}} = {{j * i}}
+    </scroll-view>
+  </view>
+</view>-->
+
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
